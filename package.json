@@ -1,0 +1,33 @@
+{
+  "name": "responsive-bp",
+  "description": "A powerful, accessible, developer friendly framework for building responsive websites.",
+  "version": "5.0.0",
+  "homepage": "http://responsivebp.com",
+  "author": "James South",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/responsivebp/responsive.git"
+  },
+  "bugs": {
+    "url": "https://github.com/responsivebp/responsive/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "eslint": "^4.9.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.8",
+    "sass-loader": "^6.0.6",
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.3",
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress --color",
+    "build:watch": "webpack --config webpack.config.js --progress --color --watch"
+  }
+}
